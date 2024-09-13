@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "@/app/components/ui/hero-highlight";
+import { HeroHighlight } from "@/app/components/ui/hero-highlight";
+import { BackgroundLinesDemo } from "./HeroText";
 
 export function HeroHighlightDemo() {
     return (
@@ -20,13 +21,14 @@ export function HeroHighlightDemo() {
                         duration: 0.5,
                         ease: [0.4, 0.0, 0.2, 1],
                     }}
-                    className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto"
+                    className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-white max-w-6xl leading-relaxed lg:leading-snug text-center mx-auto"
                 >
-                    This is the story and the power of
+                    {/* This is the story and the power of
                     <br />
                     <Highlight className="text-white font-extrabold">
                         Elios
-                    </Highlight>
+                    </Highlight> */}
+                    <BackgroundLinesDemo />
                 </motion.h1>
             </HeroHighlight>
         </>

@@ -19,6 +19,9 @@ export function BackgroundBeamsDemo() {
                     placeholder="team@elios.finance"
                     className="rounded-lg border p-2 border-neutral-800 w-full relative z-10 mt-4 bg-[#181823] placeholder:text-neutral-700"
                 />
+                <button className="rounded-full bg-white hover:bg-[#D0A3DD] hover:text-white transition-colors text-black font-bold p-2 w-full mt-4 relative z-10">
+                    Join
+                </button>
             </div>
             <BackgroundBeams />
         </div>

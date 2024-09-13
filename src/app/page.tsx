@@ -1,10 +1,10 @@
-import AppleCardsCarouselDemo from "../app/components/truc";
-import { WobbleCards } from "./components/three_bento";
-import { HeroScrollDemo } from "./components/reveil_phone";
-import { HeroHighlightDemo } from "./components/hero";
+import AppleCardsCarouselDemo from "./components/Functionality";
+import { WobbleCards } from "./components/Bento";
+import { HeroScrollDemo } from "./components/PhoneAnim";
+import { HeroHighlightDemo } from "./components/Hero";
 import { BackgroundBeamsDemo } from "./components/waitlist";
-import { GoogleGeminiEffectDemo } from "./components/present_elios";
-import { ExpandableCardDemo } from "./components/about_us";
+// import { GoogleGeminiEffectDemo } from "./components/present_elios";
+import { ExpandableCardDemo } from "./components/AboutUs";
 
 export default function Home() {
   return (
@@ -15,9 +15,9 @@ export default function Home() {
         <AppleCardsCarouselDemo />
       </div>
 
-      <div className="min-h-screen">
+      {/* <div className="min-h-screen">
         <GoogleGeminiEffectDemo />
-      </div>
+      </div> */}
 
       <div className="min-h-screen">
         <HeroScrollDemo />

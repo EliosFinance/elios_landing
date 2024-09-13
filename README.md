@@ -1,24 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Elios Landing Page
+
+This is the landing page for Elios, a financial management application. The project is built using Next.js and includes various components and dependencies for a modern web application.
 
 ## Getting Started
 
 First, run the development server:
+This is the landing page for Elios, a financial management application. The project is built using Next.js and includes various components and dependencies for a modern web application.
 
+## Intstallation
+
+First, clone the repository:
+```bash
+git clone https://github.com/EliosFinance/elios_landing.git
+```
+Then, install the dependencies:
+```bash
+npm install
+```
+run the development server:
 ```bash
 npm run dev
-# or
+```
+or
+```bash
 yarn dev
-# or
+```
+or
+```bash
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
+
+The project includes the following main components:
+
+- `components`: Contains all the components used in the project.
+
+## Dependencies
+
+This project uses the following main dependencies:
+
+- Next.js
+- React
+- Framer Motion
+- Tailwind CSS
+- Sharp (for image optimization)
+- @tabler/icons-react (for icons)
+
+For a full list of dependencies, please refer to the `package.json` file.
 
 ## Learn More
 
